@@ -88,3 +88,19 @@ let ress=age>=18?"Adult":"Minor";
 let resss=num>0?"positive":num===0?"Zero":"Negative";
 console.log(resss)
 
+//7
+const numss = [1,2,3];
+const resultss=[...numss,4,5]
+console.log(numss)
+
+const aa=["x","y"];
+const aaa=["z"];
+console.log(...aa,...aaa)
+
+
+const uppercase=(...letters)=>{
+    return letters.map(letter=>letter.toUpperCase());
+};
+console.log(uppercase("a","b","c"))
+
+
